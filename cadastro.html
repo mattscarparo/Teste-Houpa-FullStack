@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="houpa! a rede que conecta todos os estilos. Queremos inovar o jeito de comprar e vender roupas levando a moda de todos para todos.">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>houpa!</title>
+</head>
+<body>
+    <header class="cad-cabecalho">
+        <nav class="cad-cabecalho-menu">
+            <div class="cad-cabecalho-menu-item">
+                <a href="index.html" class="cad-cabecalho-menu-item-1">Vitrine</a>
+                <a href="cadastro.html" class="cad-cabecalho-menu-item-2">Cadastrar Produto</a>
+            </div>
+        </nav>
+        <div class="cad-cabecalho-imagem">
+            <img src="assets/icones/logo-h.svg" alt="Logo Houpa" class="cad-cabecalho-imagem-1"/>
+        </div>
+    </header>
+
+    <main>
+        <div class="cad-box-conteudo-primario">
+            <section class="cad-conteudo-primario">
+                <a href="" class="cad-conteudo-primario-escrito-1">houpa</a><span class="cad-conteudo-primario-escrito-2"> > </span><a href="" class="conteudo-primario-escrito-3">Cadastrar Produto</a>
+            </section>
+
+            <section class="cad-conteudo-secundario">
+                <img src="assets/icones/icon-vestido-cadastro.svg" alt="Icone Loja" class="cad-conteudo-secundario-imagem">
+                <h1 class="cad-conteudo-secundario-escrito">Cadastrar Produto</h1>
+            </section>
+        </div>
+
+        <section class="cad-conteudo-terciario">
+        <!--Falta configurar todos os JavaScript daqui em diante-->
+            <form>
+                <div class="terciario-conteudo">
+                    <span class="terciario-conteudo-cadastro">Cadastro de Produtos</span>
+                    <button class="terciario-conteudo-botao-produto">Salvar produto</button>
+                </div>
+                <div class="terciario-conteudo2">
+                    <img src="assets/icones/vestido-icon.svg" alt="Icone Vestido" class="terciario-conteudo-imagem1">
+                    <span class="terciario-conteudo-escrito-infoDoProduto">Informações do Produto</span>
+                </div>
+                <div class="terciario-conteudo3-nomeEPreco">
+                    <div class="terciario-conteudo3-nomeEPreco-nome">
+                        <fieldset>
+                            <legend class="terciario-conteudo3-nomeEPreco-nome-escrito">Nome do produto*</legend>
+                            <input type="text" name="nomeDoProduto1" placeholder="Digite o nome do produto" class="terciario-conteudo3-nomeEPreco-caixaProduto">
+                        </fieldset>
+                    </div>
+                    <div class="terciario-conteudo3-nomeEPreco-preco">
+                        <fieldset>
+                            <legend class="terciario-conteudo3-nomeEPreco-preco-escrito">Preço</legend>
+                            <input type="text" name="preçoDoProduto1" placeholder="R$" class="terciario-conteudo3-nomeEPreco-caixaPreco">
+                        </fieldset>
+                    </div>
+                </div>
+                <div>
+                    <fieldset class="terciario-conteudo4-descricao">
+                        <legend class="terciario-conteudo4-descricao-escrito">Descrição da peça*</legend>
+                        <input type="text" name="descricaoDoProduto" placeholder="Descreva os detalhes do produto anunciado" class="terciario-conteudo4-descricao-caixaDescricao">
+                    </fieldset>
+                </div>
+                <div class="terciario-conteudo5-tamanho">
+                    <!--Falta colocar a opção para excluir os tamanhos e configurar o JavaScript-->
+                    <fieldset>
+                        <legend class="terciario-conteudo5-tamanho-escrito">Tamanhos</legend>
+                        <button class="terciario-conteudo5-tamanho-botao">P</button>
+                        <button class="terciario-conteudo5-tamanho-botao">M</button>
+                        <button class="terciario-conteudo5-tamanho-botao">G</button>
+                        <button class="terciario-conteudo5-tamanho-botao">+</button>
+                    </fieldset>
+                </div>
+                <div>
+                    <p class="terciario-conteudo6-cores">Cores</p>
+                    <!--Falta colocar as cores e as descrições-->
+                </div>
+                <div class="terciario-conteudo7">
+                    <fieldset>
+                        <legend class="terciario-conteudo7-estoque">Estoque</legend>
+                        <!--Falta colocar as cores e as descrições-->
+                        <div id="counter">
+                        <!--Falta configurar o JavaScript para somar ou subtrair-->
+                            <button name="subtrair" class="subtracao" onclick=decrement()>-</button>
+                            <span id="currentNumber">0</span>
+                            <button name="adicionar" class="adicao" onclick=increment()>+</button>
+                        </div>
+                    </fieldset>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <script src="assets/javascript/index.js"></script>
+</body>

@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+html, body{
+    font-size: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.cabecalho, a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.cabecalho-menu{
+    display: flex;
+    flex-direction: start;
+    width: 100%;
+    height: 100%;
+    background: #450887;
+}
+
+.cabecalho-menu-item{
+    padding: 10px;
+    font-size: 12px;
+}
+
+.cabecalho-menu-item-1{
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.cabecalho-menu-item-2{ 
+    margin-left: 40px;
+    color: #9D85C1;    
+}
+
+.cabecalho-imagem{
+    display: flex;
+    justify-content: center;
+    background: #5F12B6;
+    padding: 20px;
+}
+
+.box-conteudo-primario{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-primario{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 20px 0px 30px 40px;
+    word-spacing: 5px;
+}
+
+.conteudo-primario-escrito-1{
+    color: #B5B5B5;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.conteudo-secundario{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: start;
+    margin: 20px 0px 30px 40px;
+}
+
+.conteudo-secundario-imagem{
+    margin-bottom: 30px;
+}
+
+.conteudo-secundario-escrito{
+    font-size: 24px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.conteudo-terciario{
+    display: block;
+}
+
+.conteudo-terciario-escrito{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #3F0B6D;
+    margin-left: 3%;
+}
+
+.conteudo-terciario-busca{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40%;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #C8C8C8;
+}
+
+.conteudo-marketplace{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.conteudo-marketplace-imagem{
+    padding: 7px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.conteudo-marketplace-produto{
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.conteudo-marketplace-preco{
+    color: #3F0B6D;
+    margin-top: 5px;
+    display: block;
+}
+/*À  PARTIR DAQUI A ESTILIZAÇÃO É REFERENTE A PÁGINA DE CADASTRO DE PRODUTOS*/
+
+.cad-cabecalho, a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.cad-cabecalho-menu{
+    display: flex;
+    flex-direction: start;
+    width: 100%;
+    height: 100%;
+    background: #450887;
+}
+
+.cad-cabecalho-menu-item{
+    padding: 10px;
+    font-size: 12px;
+}
+
+.cad-cabecalho-menu-item-1{
+    margin-left: 40px;
+    color: #9D85C1;
+}
+
+.cad-cabecalho-menu-item-2{
+
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.cad-cabecalho-imagem{
+    display: flex;
+    justify-content: center;
+    background: #5F12B6;
+    padding: 20px;
+}
+
+.cad-box-conteudo-primario{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cad-conteudo-primario{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 20px 0px 30px 40px;
+    word-spacing: 5px;
+}
+
+.cad-conteudo-primario-escrito-1{
+    color: #B5B5B5;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.cad-conteudo-secundario{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: start;
+    margin: 20px 0px 30px 40px;
+}
+
+.cad-conteudo-secundario-imagem{
+    margin-bottom: 30px;
+}
+
+.cad-conteudo-secundario-escrito{
+    font-size: 24px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.cad-conteudo-terciario{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.terciario-conteudo-cadastro{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: bold;
+    padding: 100px;
+}
+
+.terciario-conteudo-botao-produto{
+    background: #3F0B6D;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FAFAFA;
+    padding: 10px 15px;
+}
+
+.terciario-conteudo2{
+    margin-top: 40px;
+}
+
+.terciario-conteudo-escrito-infoDoProduto{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #3F0B6D;
+    align-items: center;
+    text-align: center;
+}
+
+.terciario-conteudo3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+fieldset{
+    border: none;
+}
+
+.terciario-conteudo3-nomeEPreco{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.terciario-conteudo3-nomeEPreco-nome{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo3-nomeEPreco-nome-escrito{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo3-nomeEPreco-caixaProduto{
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) -11.29%, rgba(255, 255, 255, 0.004) 100%);
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.terciario-conteudo3-nomeEPreco-preco{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo3-nomeEPreco-preco-escrito{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo3-nomeEPreco-caixaPreco{
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) -11.29%, rgba(255, 255, 255, 0.004) 100%);
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 225px;
+    margin-top: 5px;
+}
+
+.terciario-conteudo4-descricao{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo4-descricao-escrito{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo4-descricao-caixaDescricao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    padding: 24px 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) -11.29%, rgba(255, 255, 255, 0.004) 100%);
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.terciario-conteudo5-tamanho{
+    margin-top: 20px;
+}
+
+.terciario-conteudo5-tamanho-escrito{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+}
+
+.terciario-conteudo5-tamanho-botao{
+    background: #3F0B6D;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.terciario-conteudo6-cores{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.terciario-conteudo7{
+    margin-top: 20px;
+}
+
+.terciario-conteudo7-estoque{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+}
+
+#counter{
+    background: #FFFFFF;
+    border: 1px solid #F3F2F2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #3F0B6D;
+    margin-top: 5px;
+}
+
+.subtracao .adicao{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3F0B6D;
+}
